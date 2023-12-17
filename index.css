@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+p{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    padding: 0px;
+    margin: 0px;  
+}
+input[type="radio"] {
+    accent-color: #007F61;
+}
+.Container{
+    max-width: 341px;
+    height: 100vh;
+    margin: auto;
+}
+.HeadContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.headBorder{
+    border: 0.9px solid #C8C8C8;
+    width: 94px;
+}
+.Heading{
+    font-family: 'MetropolisRegular';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: #007F61;
+}
+.productCardContainer{
+    margin-top: 20px;
+    border-radius: 3.62px;
+    border: 0.9px solid #C8C8C8;
+    transition: 0.2s all ease-in-out;
+    cursor: pointer;
+    background-color: none;
+}
+.activeProductContainer{
+    margin-top: 20px;
+    border-radius: 3.62px;
+    width: 100%;
+    /* background: linear-gradient(0deg, #007F61, #F4FBF9),
+    linear-gradient(0deg, #F4FBF9, #F4FBF9); */
+    background-color: #F4FBF9;
+    border: 0.9px solid #007F61;
+    transition: 0.2s all ease-in-out;
+    cursor: pointer;
+}
+.productCards{
+    width: 100%;
+    height: 74.11px;
+    display: flex;
+    align-items: center;
+}
+.radio{
+    margin-left: 18.31px;
+}
+.pairs{
+    padding-left: 14.23px;
+}
+.pairs p {
+    font-family: 'MetropolisRegular';
+}
+.pairs p:last-child {
+    font-family: 'MetropolisRegular';
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+.Popular{
+    font-family: "Inter";
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #007F61;
+}
+.secondPromotion{
+    margin-left: auto;
+    padding-right: 18.31px;
+}
+.strikeText{
+    text-decoration: line-through;
+    font-family: "Inter";
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    padding-left: 35px;
+    opacity: 30%;
+    padding-top: 25px;
+}
+.discount{
+    margin-left: auto;
+    padding-right: 18.31px;
+    font-family: "MetropolisRegular";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 0em;
+}
+.SecondDiscount{
+    margin-left: auto;
+    font-family: "MetropolisRegular";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: right;
+    padding-top: 5px;
+}
+.shipContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-family: "Inter";
+}
+.ShipHeading{
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: #007F61;
+}
+.shipPrice{
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+.cartButton{
+    width: 100%;
+    height: 48px;
+    background: #007F61;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.copyText{
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: right;
+    padding-top: 10px;
+}
+.DropContent{
+    transition: 0.2s all ease-in-out;
+}
+table{
+    padding-top: 4px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+}
+table tr th{
+    font-family: "Inter";
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 7px;
+}
+table tr td{
+    font-family: "Inter";
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 11px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 7px;
+}
+.selectItems{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    width: 65.98px;
+    font-family: "Inter";
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.selectItems1{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    width: 72.3px;
+    font-family: "Inter";
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.selectItems::after {
+    content: "\f078"; /* Font Awesome chevron-down icon */
+    font-family: "Font Awesome 5 Free"; /* Adjust based on your Font Awesome version */
+    font-size: 1em; /* adjust size as needed */
+    color: #000; /* Change color to your preference */
+    position: absolute;
+    top: 50%;
+    right: 0.5em;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+/* table tr td select::after {
+    content: '\f0d7';
+    font: normal normal normal 17px/1 FontAwesome;
+    color: #0ebeff;
+    right: 11px;
+    top: 6px;
+    height: 34px;
+    padding: 15px 0px 0px 8px;
+    border-left: 1px solid #0ebeff;
+    position: absolute;
+    pointer-events: none;
+}
+
+
+table tr td select::-ms-expand {
+    display: none;
+} */
